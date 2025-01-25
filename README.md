@@ -4,12 +4,14 @@
 This project implements a small-scale language model based on the LLaMA architecture. It includes both training and inference capabilities, with a user-friendly Gradio interface for text generation.
 
 ## Project Structure
+```
 ├── model.py # Core model implementation (LLaMA architecture)
 ├── train.py # Training script with configuration
 ├── app.py # Gradio web interface for text generation
 ├── requirements.txt # Project dependencies
 ├── config_smollm2_135M.yaml # Model configuration
 └── input.txt # Training data
+```
 
 
 ## Setup
