@@ -223,12 +223,10 @@ def main():
             "Found checkpoint at 5000 steps. Loading and training for 50 more steps."
         )
         start_step, _ = load_checkpoint(model, optimizer, final_checkpoint_path)
-        # total_steps = start_step + 50
-        total_steps = start_step + 5
+        total_steps = start_step + 50
     else:
         logger.info("No checkpoint found at 5000 steps. Starting fresh training.")
-        # total_steps = 5000
-        total_steps = 50
+        total_steps = 5000
 
     # Training loop with tqdm
     model.train()
@@ -268,14 +266,13 @@ def main():
                 progress_bar.update(1)
 
                 # Update progress bar description with loss
-                if step % 10 == 0:
+                if step % 100 == 0:
                     progress_bar.set_description(
                         f"Training (loss: {running_loss/10:.4f})"
                     )
                     running_loss = 0
 
-                # if step % 50 == 0:
-                if step % 10 == 0:
+                if step % 500 == 0:
                     # Clear cache before generation
                     if torch.cuda.is_available():
                         torch.cuda.empty_cache()

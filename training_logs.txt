@@ -1,8 +1,8 @@
-2025-01-25 10:14:51,518 - INFO - Using device: mps
-2025-01-25 10:14:53,496 - INFO - 
+2025-01-25 10:55:28,911 - INFO - Using device: mps
+2025-01-25 10:55:31,216 - INFO - 
 Model Architecture:
-2025-01-25 10:14:53,496 - INFO - ==================================================
-2025-01-25 10:14:53,497 - INFO - LlamaForCausalLM(
+2025-01-25 10:55:31,216 - INFO - ==================================================
+2025-01-25 10:55:31,217 - INFO - LlamaForCausalLM(
   (model): LlamaModel(
     (embed_tokens): Embedding(49152, 576)
     (layers): ModuleList(
@@ -28,187 +28,81 @@ Model Architecture:
   )
   (lm_head): Linear(in_features=576, out_features=49152, bias=False)
 )
-2025-01-25 10:14:53,497 - INFO - ==================================================
-2025-01-25 10:14:53,498 - INFO - 
+2025-01-25 10:55:31,217 - INFO - ==================================================
+2025-01-25 10:55:31,218 - INFO - 
 Total trainable parameters: 134,515,008 (134.52M)
-2025-01-25 10:14:53,498 - INFO - ==================================================
-
-2025-01-25 10:14:54,212 - INFO - Set pad_token to eos_token
-2025-01-25 10:14:54,214 - INFO - Loaded 7222 text segments from input.txt
-2025-01-25 10:14:54,214 - INFO - No checkpoint found at 5000 steps. Starting fresh training.
-2025-01-25 10:15:17,651 - INFO - 
-Sample generation at step 10:
-2025-01-25 10:15:17,651 - INFO - Prompt: Once upon a time, in a distant galaxy
-2025-01-25 10:15:17,651 - INFO - Generated: Once upon a time, in a distant galaxy<|endoftext|>
-
-2025-01-25 10:15:19,163 - INFO - Checkpoint saved at step 10
-2025-01-25 10:15:42,550 - INFO - 
-Sample generation at step 20:
-2025-01-25 10:15:42,551 - INFO - Prompt: Once upon a time, in a distant galaxy
-2025-01-25 10:15:42,551 - INFO - Generated: Once upon a time, in a distant galaxy<|endoftext|>
-
-2025-01-25 10:15:44,061 - INFO - Checkpoint saved at step 20
-2025-01-25 10:16:18,252 - INFO - 
-Sample generation at step 30:
-2025-01-25 10:16:18,253 - INFO - Prompt: Once upon a time, in a distant galaxy
-2025-01-25 10:16:18,253 - INFO - Generated: Once upon a time, in a distant galaxy long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long
-
-2025-01-25 10:16:20,017 - INFO - Checkpoint saved at step 30
-2025-01-25 10:16:49,090 - INFO - 
-Sample generation at step 40:
-2025-01-25 10:16:49,091 - INFO - Prompt: Once upon a time, in a distant galaxy
-2025-01-25 10:16:49,091 - INFO - Generated: Once upon a time, in a distant galaxy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2025-01-25 10:16:50,667 - INFO - Checkpoint saved at step 40
-2025-01-25 10:17:15,847 - INFO - 
-Sample generation at step 50:
-2025-01-25 10:17:15,849 - INFO - Prompt: Once upon a time, in a distant galaxy
-2025-01-25 10:17:15,849 - INFO - Generated: Once upon a time, in a distant galaxy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<|endoftext|>
-
-2025-01-25 10:17:17,513 - INFO - Checkpoint saved at step 50
-2025-01-25 10:17:19,070 - INFO - Checkpoint saved at step 50
-2025-01-25 10:17:19,070 - INFO - Training completed!
-2025-01-25 10:24:41,031 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
-2025-01-25 10:24:41,038 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
-2025-01-25 10:24:42,157 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
-2025-01-25 10:24:42,242 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
-2025-01-25 10:24:42,331 - INFO - HTTP Request: GET https://cdn-media.huggingface.co/frpc-gradio-0.3/frpc_darwin_arm64 "HTTP/1.1 200 OK"
-2025-01-25 10:26:11,385 - INFO - Using device: mps
-2025-01-25 10:26:13,352 - INFO - 
+2025-01-25 10:55:31,218 - INFO - ==================================================
+
+2025-01-25 10:55:32,027 - INFO - Set pad_token to eos_token
+2025-01-25 10:55:32,032 - INFO - Loaded 7222 text segments from input.txt
+2025-01-25 10:55:32,032 - INFO - No checkpoint found at 5000 steps. Starting fresh training.
+2025-01-25 11:15:09,968 - INFO - 
+Sample generation at step 500:
+2025-01-25 11:15:09,969 - INFO - Prompt: Once upon a time, in a distant galaxy
+2025-01-25 11:15:09,969 - INFO - Generated: Once upon a time, in a distant galaxyell one one one one one one one one one one one one one one one one one one one one oneestestestestestestestestestestestestestestICHestestestestestestestestest it it it it it it it it it it it it it it it it it it itICK oneNENENENENENENENE one one oneNENEMIN III III III III one III III IIIsss IIINENENEICK<|endoftext|>
+
+2025-01-25 11:15:12,070 - INFO - Checkpoint saved at step 500
+2025-01-25 11:34:39,617 - INFO - 
+Sample generation at step 1000:
+2025-01-25 11:34:39,617 - INFO - Prompt: Once upon a time, in a distant galaxy
+2025-01-25 11:34:39,618 - INFO - Generated: Once upon a time, in a distant galaxyccmarbbbbbbbbbbbbbbelfelf A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A!!!!!KELurdILILILILILILILCHILILRURUILILILILILILILILILILILILILelfelfelfelfelfelfelfelfelfelfelfelfelfelfelfelf
+
+2025-01-25 11:34:41,627 - INFO - Checkpoint saved at step 1000
+2025-01-25 11:53:53,859 - INFO - 
+Sample generation at step 1500:
+2025-01-25 11:53:53,859 - INFO - Prompt: Once upon a time, in a distant galaxy
+2025-01-25 11:53:53,859 - INFO - Generated: Once upon a time, in a distant galaxyARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARARURARARARARARHHHHHHHHHHHHHHHHHHHHHHHHHHHHURARARARARHHHHHHHHHHHHHHHHHHHHHHHMPMPHHMP poor
+
+2025-01-25 11:53:55,816 - INFO - Checkpoint saved at step 1500
+2025-01-25 12:13:08,303 - INFO - 
+Sample generation at step 2000:
+2025-01-25 12:13:08,303 - INFO - Prompt: Once upon a time, in a distant galaxy
+2025-01-25 12:13:08,303 - INFO - Generated: Once upon a time, in a distant galaxy<|endoftext|>
+
+2025-01-25 12:13:10,272 - INFO - Checkpoint saved at step 2000
+2025-01-25 12:32:14,315 - INFO - 
+Sample generation at step 2500:
+2025-01-25 12:32:14,315 - INFO - Prompt: Once upon a time, in a distant galaxy
+2025-01-25 12:32:14,315 - INFO - Generated: Once upon a time, in a distant galaxy fought fought fought fought fought fought fought fought fought fought fought<|endoftext|>
+
+2025-01-25 12:32:16,304 - INFO - Checkpoint saved at step 2500
+2025-01-25 12:51:46,125 - INFO - 
+Sample generation at step 3000:
+2025-01-25 12:51:46,126 - INFO - Prompt: Once upon a time, in a distant galaxy
+2025-01-25 12:51:46,126 - INFO - Generated: Once upon a time, in a distant galaxyan lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady lady ladyanYYYYYYYYYYYYYYYYYYYYYYYYIZICKICKICKYYIZICKICK
+
+2025-01-25 12:51:48,148 - INFO - Checkpoint saved at step 3000
+2025-01-25 13:11:17,884 - INFO - 
+Sample generation at step 3500:
+2025-01-25 13:11:17,884 - INFO - Prompt: Once upon a time, in a distant galaxy
+2025-01-25 13:11:17,884 - INFO - Generated: Once upon a time, in a distant galaxyp cityailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailailail
+
+2025-01-25 13:11:19,857 - INFO - Checkpoint saved at step 3500
+2025-01-25 13:30:42,781 - INFO - 
+Sample generation at step 4000:
+2025-01-25 13:30:42,781 - INFO - Prompt: Once upon a time, in a distant galaxy
+2025-01-25 13:30:42,781 - INFO - Generated: Once upon a time, in a distant galaxyom<|endoftext|>
+
+2025-01-25 13:30:44,675 - INFO - Checkpoint saved at step 4000
+2025-01-25 13:50:08,301 - INFO - 
+Sample generation at step 4500:
+2025-01-25 13:50:08,302 - INFO - Prompt: Once upon a time, in a distant galaxy
+2025-01-25 13:50:08,302 - INFO - Generated: Once upon a time, in a distant galaxyD<|endoftext|>
+
+2025-01-25 13:50:10,226 - INFO - Checkpoint saved at step 4500
+2025-01-25 14:09:35,828 - INFO - 
+Sample generation at step 5000:
+2025-01-25 14:09:35,828 - INFO - Prompt: Once upon a time, in a distant galaxy
+2025-01-25 14:09:35,829 - INFO - Generated: Once upon a time, in a distant galaxy ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready ready readyAA<|endoftext|>
+
+2025-01-25 14:09:37,772 - INFO - Checkpoint saved at step 5000
+2025-01-25 14:09:39,364 - INFO - Checkpoint saved at step 5000
+2025-01-25 14:09:39,364 - INFO - Training completed!
+2025-01-25 14:14:46,798 - INFO - Using device: mps
+2025-01-25 14:14:48,777 - INFO - 
 Model Architecture:
-2025-01-25 10:26:13,352 - INFO - ==================================================
-2025-01-25 10:26:13,352 - INFO - LlamaForCausalLM(
+2025-01-25 14:14:48,777 - INFO - ==================================================
+2025-01-25 14:14:48,777 - INFO - LlamaForCausalLM(
   (model): LlamaModel(
     (embed_tokens): Embedding(49152, 576)
     (layers): ModuleList(
@@ -234,167 +128,13 @@ Model Architecture:
   )
   (lm_head): Linear(in_features=576, out_features=49152, bias=False)
 )
-2025-01-25 10:26:13,353 - INFO - ==================================================
-2025-01-25 10:26:13,353 - INFO - 
+2025-01-25 14:14:48,778 - INFO - ==================================================
+2025-01-25 14:14:48,779 - INFO - 
 Total trainable parameters: 134,515,008 (134.52M)
-2025-01-25 10:26:13,354 - INFO - ==================================================
-
-2025-01-25 10:26:13,674 - INFO - Set pad_token to eos_token
-2025-01-25 10:26:13,677 - INFO - Loaded 7222 text segments from input.txt
-2025-01-25 10:26:13,677 - INFO - No checkpoint found at 5000 steps. Starting fresh training.
-2025-01-25 10:26:37,318 - INFO - 
-Sample generation at step 10:
-2025-01-25 10:26:37,318 - INFO - Prompt: Once upon a time, in a distant galaxy
-2025-01-25 10:26:37,318 - INFO - Generated: Once upon a time, in a distant galaxy<|endoftext|>
-
-2025-01-25 10:26:39,171 - INFO - Checkpoint saved at step 10
-2025-01-25 10:27:02,765 - INFO - 
-Sample generation at step 20:
-2025-01-25 10:27:02,765 - INFO - Prompt: Once upon a time, in a distant galaxy
-2025-01-25 10:27:02,765 - INFO - Generated: Once upon a time, in a distant galaxy<|endoftext|>
-
-2025-01-25 10:27:04,672 - INFO - Checkpoint saved at step 20
-2025-01-25 10:27:28,122 - INFO - 
-Sample generation at step 30:
-2025-01-25 10:27:28,122 - INFO - Prompt: Once upon a time, in a distant galaxy
-2025-01-25 10:27:28,122 - INFO - Generated: Once upon a time, in a distant galaxy<|endoftext|>
-
-2025-01-25 10:27:29,982 - INFO - Checkpoint saved at step 30
-2025-01-25 10:27:53,434 - INFO - 
-Sample generation at step 40:
-2025-01-25 10:27:53,434 - INFO - Prompt: Once upon a time, in a distant galaxy
-2025-01-25 10:27:53,434 - INFO - Generated: Once upon a time, in a distant galaxy<|endoftext|>
-
-2025-01-25 10:27:55,366 - INFO - Checkpoint saved at step 40
-2025-01-25 10:28:29,978 - INFO - 
-Sample generation at step 50:
-2025-01-25 10:28:29,978 - INFO - Prompt: Once upon a time, in a distant galaxy
-2025-01-25 10:28:29,978 - INFO - Generated: Once upon a time, in a distant galaxy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2025-01-25 10:28:32,010 - INFO - Checkpoint saved at step 50
-2025-01-25 10:28:33,599 - INFO - Checkpoint saved at step 50
-2025-01-25 10:28:33,600 - INFO - Training completed!
-2025-01-25 10:28:45,543 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
-2025-01-25 10:28:45,551 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
-2025-01-25 10:28:46,745 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
-2025-01-25 10:28:46,868 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
-2025-01-25 10:31:27,803 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
-2025-01-25 10:31:27,809 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
-2025-01-25 10:31:28,987 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
-2025-01-25 10:31:29,110 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
-2025-01-25 10:37:23,262 - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
-2025-01-25 10:37:23,270 - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
-2025-01-25 10:37:24,405 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
-2025-01-25 10:37:24,496 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
-2025-01-25 10:40:56,734 - INFO - HTTP Request: GET http://127.0.0.1:7862/gradio_api/startup-events "HTTP/1.1 200 OK"
-2025-01-25 10:40:56,743 - INFO - HTTP Request: HEAD http://127.0.0.1:7862/ "HTTP/1.1 200 OK"
-2025-01-25 10:40:57,852 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
-2025-01-25 10:40:58,045 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
-2025-01-25 10:43:18,786 - INFO - HTTP Request: GET http://127.0.0.1:7863/gradio_api/startup-events "HTTP/1.1 200 OK"
-2025-01-25 10:43:18,795 - INFO - HTTP Request: HEAD http://127.0.0.1:7863/ "HTTP/1.1 200 OK"
-2025-01-25 10:43:19,908 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
-2025-01-25 10:43:20,096 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
-2025-01-25 10:49:52,125 - INFO - HTTP Request: GET http://127.0.0.1:7864/gradio_api/startup-events "HTTP/1.1 200 OK"
-2025-01-25 10:49:52,132 - INFO - HTTP Request: HEAD http://127.0.0.1:7864/ "HTTP/1.1 200 OK"
-2025-01-25 10:49:53,346 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
-2025-01-25 10:49:53,455 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-01-25 14:14:48,779 - INFO - ==================================================
+
+2025-01-25 14:14:49,107 - INFO - Set pad_token to eos_token
+2025-01-25 14:14:49,109 - INFO - Loaded 7222 text segments from input.txt
+2025-01-25 14:14:49,109 - INFO - Found checkpoint at 5000 steps. Loading and training for 50 more steps.
+2025-01-25 14:16:46,267 - INFO - Checkpoint saved at step 5050
+2025-01-25 14:16:46,267 - INFO - Training completed!

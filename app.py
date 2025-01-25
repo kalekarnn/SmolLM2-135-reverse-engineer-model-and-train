@@ -114,7 +114,7 @@ def generate_text(prompt, max_length=100):
 
 # Load model and tokenizer globally
 print("Loading model and tokenizer...")
-checkpoint_path = "checkpoints/checkpoint_50.pt"  # Adjust path as needed
+checkpoint_path = "checkpoints/checkpoint_5050.pt"  # Adjust path as needed
 model, tokenizer, device = load_model(checkpoint_path)
 print(f"Model loaded and running on {device}")
 
