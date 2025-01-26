@@ -3,6 +3,10 @@
 ## Overview
 This project implements a small-scale language model based on the LLaMA architecture. It includes both training and inference capabilities, with a user-friendly Gradio interface for text generation.
 
+## Demo
+
+Huggingface App link: [https://huggingface.co/spaces/kalekarnn/SmolLM2-135-model](https://huggingface.co/spaces/kalekarnn/SmolLM2-135-model)
+
 ## Project Structure
 ```
 ├── model.py # Core model implementation (LLaMA architecture)
